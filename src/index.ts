@@ -86,3 +86,8 @@ export { MessageUpdateStatus } from "./types/messages";
 export { ChatId, GroupJid, Jid, MessageId } from "./types/tags";
 export * from "./types/webhooks";
 export { WebhookEvent, WebhookEventSetup } from "./types/events";
+export * from "./chatbot";
+export * from "./services/classification";
+export * from "./services/llm";
+export * from "./services/external";
+export * from "./server";
