@@ -86,3 +86,18 @@ export { MessageUpdateStatus } from "./types/messages";
 export { ChatId, GroupJid, Jid, MessageId } from "./types/tags";
 export * from "./types/webhooks";
 export { WebhookEvent, WebhookEventSetup } from "./types/events";
+
+export { createServer } from "./server/api";
+export { ChatbotFlow } from "./chatbot/flow";
+export { agents, agentsById, type AgentId, type AgentDefinition } from "./chatbot/agents";
+export { ConversationMemory, MemoryStore } from "./chatbot/memory";
+export { MessageClassifier } from "./services/message-classifier";
+export { OpenAILLMService } from "./services/llm-service";
+export {
+  EvolutionWhatsAppMessageSender,
+  type WhatsAppMessageSender,
+} from "./services/whatsapp-message-sender";
+export {
+  MockedExternalAppointmentService,
+  type ExternalAppointmentService,
+} from "./services/external-appointment-service";
